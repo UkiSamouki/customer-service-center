@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "call_back_forms",
+  "info": {
+    "name": "callBackForm"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "unique": false,
+      "required": true
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female"
+      ],
+      "required": true
+    },
+    "phone_number": {
+      "type": "integer",
+      "required": true,
+      "min": 0
+    },
+    "order_number": {
+      "type": "integer",
+      "min": 0,
+      "default": 0
+    },
+    "email": {
+      "type": "email",
+      "required": false,
+      "unique": false
+    },
+    "issue_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "date": {
+      "required": true,
+      "type": "datetime"
+    },
+    "accept_terms": {
+      "type": "boolean",
+      "default": false
+    },
+    "comment": {
+      "type": "richtext"
+    }
+  }
+}

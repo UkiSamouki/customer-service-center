@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/call-back-forms",
+      "handler": "call-back-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/call-back-forms/count",
+      "handler": "call-back-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/call-back-forms/:id",
+      "handler": "call-back-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/call-back-forms",
+      "handler": "call-back-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/call-back-forms/:id",
+      "handler": "call-back-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/call-back-forms/:id",
+      "handler": "call-back-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
