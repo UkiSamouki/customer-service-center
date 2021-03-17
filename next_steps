@@ -1,0 +1,13 @@
+Ono sto bih u narednim koracima uradio
+
+1) sredio dizajn forme
+2) extendowao ili forkovao neki paket za pickDate da bih podesio ono sto se 
+ trazilo u zadatku da vreme ide na 30 min i od pon-pet bude od 08-20 a sub 08-13:00
+3)sredio bih error prikazivanje na frontendu
+4)za arhiviranje strapi cms ima publish sistem koji ako nije publishovan rekord se ne nalazi u API
+ a mozemo i dodati polje koje ce biti switch ili check box na bekendu koja ce sluziti za arhiviranje
+ po kome bi sortirali
+5)Sto se tice daljeg razvoja aplikacije mozemo useru pokazati sve njegove poslate forme kao i odgovore
+ na njihove probleme stavio sam jedno polje u bekendu comments u kome admin moze da komentar na poslatu
+ forme
+6)Refaktorisanje koda - sto isto nisam stigao
